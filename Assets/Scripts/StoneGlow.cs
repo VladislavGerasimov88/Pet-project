@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class StoneGlow : MonoBehaviour
@@ -16,11 +15,12 @@ public class StoneGlow : MonoBehaviour
     private bool playerInTrigger = false;
 
     public PlayerPoint playerPoint;
+    public ParticleSystem myParticleSystem;
     public LittleStoneGlow littleStoneGlow;
 
     void Start()
     {
-        material = GetComponent<Renderer>().material; //GetComponent<Renderer>().sharedMaterial;
+        material = GetComponent<Renderer>().material;
         originalEmissionColor = material.GetColor("_EmissionColor");
     }
 
@@ -37,13 +37,13 @@ public class StoneGlow : MonoBehaviour
         }
     }
 
-    // Вызывайте этот метод при нажатии кнопки
     public void ToggleGlow()
     {
         if (Check == false)
         {
             isGlowing = !isGlowing;
             Check = true;
+            myParticleSystem.Play();
             // Останавливаем предыдущую корутину, если была
             if (glowCoroutine != null)
             {

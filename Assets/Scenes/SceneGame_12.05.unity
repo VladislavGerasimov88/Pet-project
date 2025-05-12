@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.11546254, g: 0.117374375, b: 0.12566279, a: 1}
+  m_IndirectSpecularColor: {r: 0.115604445, g: 0.11738269, b: 0.12566124, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -643,6 +643,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 499043227}
     m_Modifications:
+    - target: {fileID: 3933239341603873269, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239341664815986, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342182814385, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342225972719, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342867947658, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3933239343127008733, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -690,6 +714,10 @@ PrefabInstance:
     - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_Name
       value: VFX_RuneStone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343509290325, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
@@ -1805,9 +1833,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 186655459}
     m_Modifications:
+    - target: {fileID: 3572662335827651193, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556107113974533830, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5737766633168023270, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
       propertyPath: m_Name
       value: VFX_CrystalBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737766633168023270, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5740897485410299918, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
       propertyPath: m_RootOrder
@@ -2862,6 +2902,7 @@ MonoBehaviour:
   targetIntensity: 20
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1980464618}
   littleStoneGlow: {fileID: 0}
 --- !u!65 &60722990
 BoxCollider:
@@ -7535,6 +7576,7 @@ MonoBehaviour:
   targetIntensity: 5
   transitionTime: 1
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 804164877}
 --- !u!135 &186655462
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15475,9 +15517,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 649639298}
     m_Modifications:
+    - target: {fileID: 3572662335827651193, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556107113974533830, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5737766633168023270, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
       propertyPath: m_Name
       value: VFX_CrystalBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737766633168023270, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5740897485410299918, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
       propertyPath: m_RootOrder
@@ -15545,6 +15599,7 @@ MonoBehaviour:
   targetIntensity: 17
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1872135831}
   littleStoneGlow: {fileID: 2097922120}
 --- !u!65 &381819525
 BoxCollider:
@@ -20698,6 +20753,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1501019026}
     m_Modifications:
+    - target: {fileID: 3933239341603873269, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239341664815986, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342182814385, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342225972719, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342867947658, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3933239343127008733, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -20745,6 +20824,10 @@ PrefabInstance:
     - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_Name
       value: VFX_RuneStone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343509290325, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
@@ -21337,6 +21420,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1428391970}
     m_Modifications:
+    - target: {fileID: 3933239341603873269, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239341664815986, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342182814385, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342225972719, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342867947658, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3933239343127008733, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -21384,6 +21491,14 @@ PrefabInstance:
     - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_Name
       value: VFX_RuneStone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343509290325, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
@@ -22718,8 +22833,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.5171437, y: 0.077370815, z: 4.4752827}
-  m_Center: {x: 2.4703374, y: 0.08120527, z: 2.4315085}
+  m_Size: {x: 4.5171437, y: 0.046439156, z: 4.4752827}
+  m_Center: {x: 2.4703374, y: 0.06573953, z: 2.4315085}
 --- !u!1 &478778194
 GameObject:
   m_ObjectHideFlags: 0
@@ -32061,6 +32176,7 @@ MonoBehaviour:
   targetIntensity: 5
   transitionTime: 1
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1599527148}
 --- !u!135 &649639301
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -34251,6 +34367,7 @@ MonoBehaviour:
   targetIntensity: 6
   transitionTime: 1
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1730931403}
 --- !u!135 &694513360
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -37509,6 +37626,7 @@ MonoBehaviour:
   targetIntensity: 17
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1961281582}
   littleStoneGlow: {fileID: 1364324240}
 --- !u!65 &764934030
 BoxCollider:
@@ -39198,6 +39316,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!198 &804164877 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5556107113974533830, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+  m_PrefabInstance: {fileID: 38316694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &804240053
 GameObject:
   m_ObjectHideFlags: 0
@@ -40004,6 +40127,7 @@ MonoBehaviour:
   targetIntensity: 17
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1547287091}
   littleStoneGlow: {fileID: 2018203197}
 --- !u!65 &817896172
 BoxCollider:
@@ -54283,9 +54407,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 694513357}
     m_Modifications:
+    - target: {fileID: 3572662335827651193, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556107113974533830, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5737766633168023270, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
       propertyPath: m_Name
       value: VFX_CrystalBlue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5737766633168023270, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5740897485410299918, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
       propertyPath: m_RootOrder
@@ -70471,6 +70607,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 215312395}
     m_Modifications:
+    - target: {fileID: 3933239341603873269, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239341664815986, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342182814385, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342225972719, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342867947658, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3933239343127008733, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -70518,6 +70678,10 @@ PrefabInstance:
     - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_Name
       value: VFX_RuneStone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343509290325, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
@@ -70632,6 +70796,7 @@ MonoBehaviour:
   targetIntensity: 20
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1950889764}
   littleStoneGlow: {fileID: 0}
 --- !u!1 &1430399199
 GameObject:
@@ -71753,6 +71918,7 @@ MonoBehaviour:
   targetIntensity: 17
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 0}
   littleStoneGlow: {fileID: 1894905913}
 --- !u!65 &1442537411
 BoxCollider:
@@ -74978,6 +75144,7 @@ MonoBehaviour:
   targetIntensity: 17
   transitionTime: 0.3
   playerPoint: {fileID: 805743675}
+  myParticleSystem: {fileID: 1970275914}
   littleStoneGlow: {fileID: 2063619297}
 --- !u!1 &1516779094
 GameObject:
@@ -77277,6 +77444,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 452598, guid: 3e0f6b0ee51e6eb42a731a26210989b9, type: 3}
   m_PrefabInstance: {fileID: 1545344768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1547287091 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+  m_PrefabInstance: {fileID: 1899642713}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1549320969
 GameObject:
@@ -80963,6 +81135,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 406854, guid: d00442b5e6db1d946841cbe6ef7562d4, type: 3}
   m_PrefabInstance: {fileID: 1599314717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1599527148 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5556107113974533830, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+  m_PrefabInstance: {fileID: 381066182}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1602604875
 PrefabInstance:
@@ -85103,6 +85280,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 60722987}
     m_Modifications:
+    - target: {fileID: 3933239341603873269, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239341664815986, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342182814385, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342225972719, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342867947658, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3933239343127008733, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -85150,6 +85351,14 @@ PrefabInstance:
     - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_Name
       value: VFX_RuneStone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343509290325, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
@@ -85556,6 +85765,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717240562}
   m_Mesh: {fileID: 4300002, guid: b69174d668ba02d44b14a084b217670a, type: 3}
+--- !u!198 &1730931403 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5556107113974533830, guid: cd68ebd4e83ebfe47a9c33f2fe48f719, type: 3}
+  m_PrefabInstance: {fileID: 1049448943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1733271859
 GameObject:
   m_ObjectHideFlags: 0
@@ -91505,6 +91719,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!198 &1872135831 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+  m_PrefabInstance: {fileID: 1425345192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1874281273
 GameObject:
   m_ObjectHideFlags: 0
@@ -92397,6 +92616,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 817896169}
     m_Modifications:
+    - target: {fileID: 3933239341603873269, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239341664815986, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342182814385, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342225972719, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239342867947658, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3933239343127008733, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -92444,6 +92687,10 @@ PrefabInstance:
     - target: {fileID: 3933239343127008734, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
       propertyPath: m_Name
       value: VFX_RuneStone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933239343509290325, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
@@ -94563,6 +94810,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!198 &1950889764 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+  m_PrefabInstance: {fileID: 426642444}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1953531558
 GameObject:
   m_ObjectHideFlags: 0
@@ -95633,6 +95885,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!198 &1961281582 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+  m_PrefabInstance: {fileID: 2309104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1963514100
 GameObject:
   m_ObjectHideFlags: 0
@@ -95915,6 +96172,11 @@ Transform:
   m_Father: {fileID: 764210904}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -34.39399, y: 95.70481, z: -1.1358206}
+--- !u!198 &1970275914 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+  m_PrefabInstance: {fileID: 416393854}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1970667697
 GameObject:
   m_ObjectHideFlags: 0
@@ -96947,6 +97209,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!198 &1980464618 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3933239343127008723, guid: 25d26a19fc525144daaa6b87674e2dc2, type: 3}
+  m_PrefabInstance: {fileID: 1706228312}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1981308360
 GameObject:
   m_ObjectHideFlags: 0

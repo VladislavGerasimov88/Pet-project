@@ -5,13 +5,22 @@ using UnityEngine;
 public class SecondPlate : MonoBehaviour
 {
     private Animator animator;
+    private BoxCollider boxCollider;
 
     public PlayerPoint playerPoint;
     void Start()
     {
         animator = GetComponent<Animator>();
+        boxCollider = GetComponent<BoxCollider>();
     }
-    
+    private void Update()
+    {
+        if (playerPoint.platePoints == 4 && boxCollider!= null)
+        {
+            Destroy(boxCollider);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         //animator.SetTrigger("activate");

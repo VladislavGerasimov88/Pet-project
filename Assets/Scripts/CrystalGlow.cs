@@ -15,6 +15,7 @@ public class CrystalGlow : MonoBehaviour
     private bool playerInTrigger = false;
 
     public PlayerPoint playerPoint;
+    public ParticleSystem myParticleSystem;
 
     void Start()
     {
@@ -46,6 +47,7 @@ public class CrystalGlow : MonoBehaviour
 
             // Запускаем новую корутину
             glowCoroutine = StartCoroutine(AdjustEmission(isGlowing));
+            StartCoroutine(ActiveParticle());
             playerPoint.crystalPoint += 1;
         }
     }
@@ -53,9 +55,11 @@ public class CrystalGlow : MonoBehaviour
     private IEnumerator AdjustEmission(bool glowEnabled)
     {
         yield return new WaitForSeconds(1f);
+        
         float startIntensity = material.GetColor("_EmissionColor").maxColorComponent;
         float targetValue = glowEnabled ? targetIntensity : 1f;
         float elapsedTime = 0f;
+        
 
         while (elapsedTime < transitionTime)
         {
@@ -67,14 +71,19 @@ public class CrystalGlow : MonoBehaviour
             DynamicGI.UpdateEnvironment();
 
             yield return null;
-        }
+        }        
 
         // Финишная точная установка
         material.SetColor("_EmissionColor", originalEmissionColor * targetValue);
         DynamicGI.UpdateEnvironment();
     }
-
+   IEnumerator ActiveParticle()
+    {
+        yield return new WaitForSeconds(0.7f);
+        myParticleSystem.Play();
+    }
     
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
