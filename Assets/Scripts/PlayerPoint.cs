@@ -47,28 +47,24 @@ public class PlayerPoint : MonoBehaviour
     }
     IEnumerator ExecuteAfterDelay()
     {
-        // ∆дЄм 1 секунду
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.4f);
 
         animatorPeaks.SetTrigger("activate");
     }
     IEnumerator OpenDoor()
     {
-        // ∆дЄм 1 секунду
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.4f);
 
         animatorFirstDoor.SetTrigger("activate");
     }
     IEnumerator OpenGrid()
     {
-        // ∆дЄм 1 секунду
         yield return new WaitForSeconds(1f);
 
         animatorGrid.SetTrigger("inActiv");
     }
     IEnumerator OpenMainDoor()
     {
-        // ∆дЄм 1 секунду
         yield return new WaitForSeconds(1f);
 
         animatorMainDoor.SetTrigger("activate");

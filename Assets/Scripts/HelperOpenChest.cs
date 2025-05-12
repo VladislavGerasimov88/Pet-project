@@ -15,7 +15,10 @@ public class HelperOpenChest : MonoBehaviour
     {
         if (playerInTrigger)
         {
-            helper.gameObject.SetActive(true);
+            if (helper!=null)
+            {
+                helper.gameObject.SetActive(true);
+            }
         }
         if (!playerInTrigger)
         {
