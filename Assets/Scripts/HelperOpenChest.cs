@@ -22,7 +22,10 @@ public class HelperOpenChest : MonoBehaviour
         }
         if (!playerInTrigger)
         {
-            helper.gameObject.SetActive(false);
+            if (helper!=null)
+            {
+                helper.gameObject.SetActive(false);
+            }
         }
         if (playerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
